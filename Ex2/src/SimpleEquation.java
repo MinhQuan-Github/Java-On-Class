@@ -8,7 +8,7 @@ public class SimpleEquation {
 				System.out.println("Can't solve");
 			}
 		} else {
-			Float answer = (float) (b * 1.0 / a);
+			Float answer = (float) (-b * 1.0 / a);
 			System.out.println("x = " + answer);
 		}
 	}
