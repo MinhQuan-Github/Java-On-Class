@@ -10,5 +10,4 @@ public class PerfectSquares {
 		if (check(100)) System.out.print("true");
 		else System.out.print("false");
 	}
-
 }
