@@ -1,4 +1,4 @@
-
+// Tim so trung vi trong ba so a, b ,c
 public class Median {
 	public double median(double a , double b , double c) {
 		if (a <= b && a >= c || a <= c && a >= b) return a;

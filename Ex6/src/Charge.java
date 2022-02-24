@@ -1,4 +1,4 @@
-
+// Tinh tien karaoke
 public class Charge {
 	int a;
 	int b;
