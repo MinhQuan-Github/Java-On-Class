@@ -18,5 +18,5 @@ public class Check {
 		System.out.println(check(32));
 		System.out.println(check(89));
 	}
-
+	
 }
