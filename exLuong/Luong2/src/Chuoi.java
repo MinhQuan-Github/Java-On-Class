@@ -6,14 +6,13 @@ public class Chuoi {
     public String nhapso() throws IOException {
         InputStreamReader luongvao = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(luongvao);
-        String s = br.readLine();
-        return s;
+        return br.readLine();
     }
 
     public void daoChuoi(String m) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = m.length()-1 ; i >= 0 ; i--){
-            result += m.charAt(i);
+            result.append(m.charAt(i));
         }
         System.out.println("Chuoi ban dau la : " + m);
         System.out.println("Chuoi sau khi dao la : " + result);
@@ -27,7 +26,7 @@ public class Chuoi {
                 System.out.println("Nhap mot chuoi : ");
                 m = dt.nhapso();
             } while (m.length() <= 0);
-        } catch (Exception e) {}
+        } catch (Exception ignored) {}
         System.out.println("Chuoi da nhap la : " + m);
         dt.daoChuoi(m);
     }
