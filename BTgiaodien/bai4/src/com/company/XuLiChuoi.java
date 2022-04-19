@@ -53,7 +53,6 @@ public class XuLiChuoi extends Frame implements ActionListener {
         pn1.add(txt1);
 
         pn2.add(ToUpperCase);
-        //pn2.add(Box.createRigidArea(new Dimension(30,0)));
         pn2.add(txt2);
 
         pn3.add(ToLowerCase);
